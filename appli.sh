@@ -17,6 +17,8 @@ sudo apt install moc -y
 sudo apt-get install snap -y
 sudo apt-get install snapd -y 
 sudo snap install rambox
+sudo snap install --classic riseup-vpn 
+#https://riseup.net/fr/vpn/linux
 #sudo snap install etcher
 
 
