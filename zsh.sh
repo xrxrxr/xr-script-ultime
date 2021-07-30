@@ -7,6 +7,7 @@ sudo apt-get install git -y
 chsh -s /usr/bin/zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 cp .vimrc  ~/.vimrc
+cp .vim  ~/.vim
 cp .zshrc ~/.zshrc
 git clone https://github.com/romkatv/powerlevel10k.git ~/.oh-my-zsh/custom/themes/powerlevel10k
 #git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
