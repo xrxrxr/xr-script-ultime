@@ -13,7 +13,8 @@ sudo apt install bleachbit -y
 sudo apt install gnome-multiwriter -y
 sudo apt install youtube-dl -y
 sudo apt install moc -y
-sudo apt install stow
+sudo apt install stow -y 
+sudo apt install redshift-gtk -y
 ## chrome install 
 #wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
 #sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
@@ -27,3 +28,4 @@ sudo apt install stow
 # sudo snap install --classic riseup-vpn
 #https://riseup.net/fr/vpn/linux
 #sudo snap install etcher
+cp redshift.conf   ~/.config/redshift.conf
